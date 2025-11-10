@@ -1,0 +1,206 @@
+{ 
+    "presetName": "Default",
+    "obsSettings": {
+        "ipAddress": "127.0.0.1:4455",
+        "password": "obswsserver"
+    },
+    "sheetSettings": {
+        "sheetID": "1m0BTEr_RJwZxt5wJu9iGtdMAU2GaRaeXV9ykVWJ6A0w",
+        "tabname": "Data",
+        "range": "A7:M38",
+        "apiKey": "AIzaSyBXTQhpYiayi9h39QHwZM6SyPGW0lUGiGk"
+    },
+    "controllerSettings": {
+        "autoReload": "false",
+        "reloadTime": "0",
+        "inputs": [
+            
+            {
+                "name": "Team1Name",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "A8"
+            },
+            {
+                "name": "Team2Name",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "B8"
+            },
+            {
+                "name": "TeamLeftName",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "A8"
+            },
+            {
+                "name": "TeamRightName",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "B8"
+            },
+            {
+                "name": "TeamLeftName2",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "A8"
+            },
+            {
+                "name": "TeamRightName2",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "B8"
+            },
+            {
+                "name": "TeamLeftScore",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "A7"
+            },
+            {
+                "name": "TeamRightScore",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "B7"
+            },            
+            {
+                "name": "TeamLeftScore2",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "A7"
+            },
+            {
+                "name": "TeamRightScore2",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "B7"
+            },
+            {
+                "name": "GameOf",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "D12"
+            },
+            {
+                "name": "BestOf",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "C12"
+            },
+            {
+                "name": "LeftPlayerName1",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "A13"
+            },
+            {
+                "name": "LeftPlayerName2",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "A14"
+            },
+            {
+                "name": "RightPlayerName1",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "B13"
+            },
+            {
+                "name": "RightPlayerName2",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "B14"
+            },
+            {
+                "name": "PlayerR",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "A13"
+            },
+            {
+                "name": "PlayerR 2",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "A14"
+            },
+            {
+                "name": "PlayerR 3",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "A15"
+            },
+            {
+                "name": "PlayerR 4",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "A16"
+            },
+            {
+                "name": "PlayerL",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "B13"
+            },
+            {
+                "name": "PlayerL 2",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "B14"
+            },
+            {
+                "name": "PlayerL 3",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "B15"
+            },
+            {
+                "name": "PlayerL 4",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "B16"
+            },
+            {
+                "name": "Caster1Name",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "D7"
+            },
+            {
+                "name": "Caster2Name",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "E7"
+            },
+            {
+                "name": "IntervieweeName",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "G7"
+            },
+            {
+                "name": "CasterL3",
+                "type": "text_gdiplus_v3",
+                "provider": "Google Sheet",
+                "data": "H7"
+            },
+            {
+                "name": "ValorantCharacter",
+                "type": "image_source",
+                "provider": "Google Sheet",
+                "data": "C8"
+            },
+            {
+                "name": "Team1LogoNew",
+                "type": "ffmpeg_source",
+                "provider": "Google Sheet",
+                "data": "A11"
+            },
+            {
+                "name": "Team2LogoNew",
+                "type": "ffmpeg_source",
+                "provider": "Google Sheet",
+                "data": "B11"
+            }
+        ]
+    }
+}
